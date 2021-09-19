@@ -6,7 +6,8 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "BatoiPOP\\": "public/"
-        }
+            "BatoiPOP\\": "src/"
+        },
+        "files": ["myHelpers/myHelpers.php"]
     }
 }
