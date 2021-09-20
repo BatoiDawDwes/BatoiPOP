@@ -1,3 +1,7 @@
+<?php
+    require_once ('../kernel.php');
+    require_once($route_config.'products.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>

@@ -3,11 +3,14 @@
     "require-dev": {
         "phpunit/phpunit": "^9.5"
     },
-    "require": {},
+    "require": {
+        "filp/whoops": "^2.14"
+    },
     "autoload": {
         "psr-4": {
             "BatoiPOP\\": "src/"
         },
-        "files": ["myHelpers/myHelpers.php"]
+        "files": [
+            "myHelpers/myHelpers.php"]
     }
 }
